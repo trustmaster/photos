@@ -1,0 +1,107 @@
+<head>
+    <title>{{ with .Title }}{{ humanize . }} |{{ end }}{{ .Site.Title }}</title>
+    <meta charset="utf-8" />
+    {{- with site.Params.ga_verify }}
+        <meta name="google-site-verification" content="{{ . }}" />
+    {{- end }}
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {{ with .OutputFormats.Get "rss" -}}
+        {{ printf `
+            <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML
+        }}
+    {{ end -}}
+    {{- partialCached "analytics" . }}
+    {{- partial "opengraph" . }}
+    {{- partialCached "favicon" . }}
+    {{- partialCached "styles" . }}
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link
+        rel="stylesheet"
+        tyle="text/css"
+        media="all"
+        href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link
+        href="/css/gallery.css"
+        type="text/css"
+        rel="stylesheet"
+        media="all"
+    />
+    <style type="text/css">
+        .post_inner a.photo {
+            color: var(--theme);
+        }
+
+        .post_inner a.photo:hover {
+            opacity: 1;
+            text-decoration: none;
+        }
+
+        .post_inner a.photo > img.thumb {
+            transition: transform 0.5s ease;
+        }
+
+        .post_inner > a.photo > img.thumb {
+            max-width: 840px;
+            display: block;
+            margin: 2rem auto;
+        }
+
+        .post_inner a.photo:hover img.thumb {
+            transform: scale(1.05);
+        }
+
+        .post_inner > a.photo:hover > img.thumb {
+            transform: scale(1.04);
+        }
+
+        /* Icons */
+        .fa-stack.small {
+            font-size: 1em;
+            margin-left: -10px;
+        }
+
+        .fa-stack.small i {
+            vertical-align: middle;
+        }
+
+        .fa-stack.small .fa-stack-2x {
+            font-size: 0.7em;
+        }
+
+        .fa-stack.small .fa-stack-1x {
+            font-size: 0.7em;
+        }
+
+        /* GLightbox skin */
+        .glightbox-clean .gslide-description {
+            background: #00000000;
+        }
+
+        .glightbox-clean .gdesc-inner {
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .glightbox-clean .gslide-title {
+            font-size: 0.9em;
+            color: #fee7e7;
+            margin-bottom: 20px;
+        }
+
+        .glightbox-clean .gslide-desc {
+            font-size: 0.7em;
+            margin-bottom: 0;
+        }
+    </style>
+</head>

@@ -1,0 +1,92 @@
+/* Based on Justified Image Grid by Helmut Wandl and Flexbin CSS
+  <https://ehtmlu.com/blog/justified-image-grid-only-with-css-html>
+  <https: //github.com/guoyunhe/flexbin>
+*/
+/* Settings start */
+.gallery {
+  --space: 10px;
+  --min-height: 240px;
+  --last-row-background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
+}
+/* Settings end */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: var(--space);
+  list-style: none;
+  margin: 20px 0 !important; /* We use !important to avoid gaps in some environments. */
+  padding: 0 !important; /* We use !important to avoid gaps in some environments. */
+}
+
+.gallery > * {
+  /*flex-grow: calc(var(--width) * (100000 / var(--height)));*/
+  flex-grow: calc(var(--width) / var(--height));
+  flex-basis: calc(var(--min-height) * (var(--width) / var(--height)));
+  aspect-ratio: var(--width) / var(--height);
+  height: 100%; /* Required on Safari */
+  position: relative;
+  overflow: hidden;
+  margin: 0 !important; /* We use !important to avoid gaps in some environments. */
+  padding: 0 !important; /* We use !important to avoid gaps in some environments. */
+}
+
+.gallery > * > img {
+  position: absolute;
+  width: 100% !important; /* Overwrite theme value */
+  height: 100%;
+  margin: 0;
+}
+
+.gallery::after {
+  content: " ";
+  /*flex-grow: 1000000000;*/
+  flex-grow: 6;
+  background: var(--last-row-background);
+}
+
+a.photo {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+a.photo>.overlay:not(.gallery>*>.overlay) {
+  background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
+  z-index: 99999;
+  opacity: 1;
+  transition: opacity 0.3 ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: 45px 0 0 67px;
+}
+
+.gallery > * > .overlay {
+  background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
+  z-index: 99999;
+  opacity: 1;
+  transition: opacity 0.3 ease-in-out;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.overlay.fade {
+  animation: fadeOut ease 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,10 @@
+baseURL = 'http://photos.kodigy.com/'
+languageCode = 'en-us'
+title = 'Photo Stories by Vladimir Sibirov'
+theme = ["github.com/onweru/newsroom"]
+
+[params]
+    thumbnailWidth = 840
+    thumbnailHeight = 0
+    thumbnailQuality = 97
+    rssFullContent = true

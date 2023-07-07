@@ -1,0 +1,60 @@
+<footer class="footer wrap pale">
+    <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+            ><img
+                alt="Creative Commons License"
+                style="border-width:0"
+                src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+        /></a>
+        &copy;&nbsp;<span class="year"></span>&nbsp;{{ site.Title }} ||
+        <a
+            href="/index.xml"
+            rel="alternate"
+            type="application/rss+xml"
+            title="{{ .Site.Title | default "" }}"
+        >
+            Subscribe
+            <span class="fa-stack fa-2x small">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+    </p>
+    <p class="attribution upcase">
+        {{ safeHTML (T "designed_by" site.Data.designer) }}
+    </p>
+</footer>
+{{ $scriptPath := "js/index.js" }}
+{{ $scripts := resources.Get $scriptPath | resources.ExecuteAsTemplate $scriptPath . | resources.Minify |
+    resources.Fingerprint "sha512"
+}}
+<script src="{{ $scripts.Permalink }}"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+    integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+></script>
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+<script type="text/javascript" src="/js/gphoto.js"></script>
+<script type="text/javascript">
+    function setGalleryContainerSize() {
+        const imgs = document.querySelectorAll(".gallery a img");
+        imgs.forEach((img) => {
+            const width = img.getAttribute("width");
+            const height = img.getAttribute("height");
+            img.parentElement.style.setProperty("--width", width);
+            img.parentElement.style.setProperty("--height", height);
+        });
+    }
+
+    setGalleryContainerSize();
+
+    const lightbox = GLightbox({
+        selector: ".photo",
+        width: "100vw",
+        height: "auto",
+        preload: false,
+        loop: true,
+    });
+</script>
