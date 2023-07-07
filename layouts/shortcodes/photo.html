@@ -4,8 +4,8 @@
 {{- $thumb := .Get "thumb" -}}
 {{- $width := .Get "width" -}}
 {{- $height := .Get "height" -}}
-{{- $thumb_width := .Get "thumb_width" -}}
-{{- $thumb_height := .Get "thumb_height" -}}
+{{- $full_width := .Get "src-width" -}}
+{{- $full_height := .Get "src-height" -}}
 
 {{- if not $src -}}
     {{- errorf "Photo shortcode requires src parameter to be set in %q" .Path -}}
@@ -16,6 +16,8 @@
 {{- $thumbnail := "" -}}
 {{- $width_attr := "" -}}
 {{- $height_attr := "" -}}
+{{- $full_width_attr := "" -}}
+{{- $full_height_attr := "" -}}
 {{- $overlay_style := "" -}}
 
 
@@ -26,6 +28,16 @@
 {{ else }}
     {{ $height = 0 }}
 {{ end -}}
+
+{{- if $full_width -}}
+    {{- $full_width = int $full_width }}
+    {{- $full_width_attr = printf "data-width=\"%d\"" $full_width -}}
+{{- end -}}
+
+{{- if $full_height -}}
+    {{- $full_height = int $full_height }}
+    {{- $full_height_attr = printf "data-height=\"%d\"" $full_height -}}
+{{- end -}}
 
 
 <!-- Get defaults either from site config or use hardcoded fallbacks -->
@@ -125,6 +137,8 @@
     data-gallery="post"
     href="{{ $src | absURL }}"
     title="{{ $caption }}"
+    {{ safeHTMLAttr $full_width_attr }}
+    {{ safeHTMLAttr $full_height_attr }}
 >
     <!-- <div
         class="thumb overlay"

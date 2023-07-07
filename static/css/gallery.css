@@ -6,7 +6,8 @@
 .gallery {
   --space: 10px;
   --min-height: 240px;
-  --last-row-background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
+  --last-row-background: transparent;
+  /*--last-row-background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);*/
 }
 /* Settings end */
 

@@ -32,11 +32,21 @@ function adjustImagesToViewport(className) {
 }
 
 function adjustLinksToViewport(className) {
-    const viewportWidth = getViewportWidth();
+    let viewportWidth = getViewportWidth();
+    console.log('Viewport width', viewportWidth);
     const links = document.querySelectorAll(`a.${className}`);
     Array.from(links).forEach((link) => {
         const url = link.href;
+        // Load images in 2x viewport width by default to support a bit of zoom on mobile
+        if (link.dataset.width) {
+            const width = parseInt(link.dataset.width, 10);
+            if (2*viewportWidth < width) {
+                viewportWidth = 2*viewportWidth;
+            }
+        }
+        console.log('Final VP width', viewportWidth);
         const newUrl = replaceDimensionsInUrl(url, viewportWidth);
+        console.log('New URL', newUrl);
         link.href = newUrl;
     });
 }
@@ -68,7 +78,6 @@ function loadImageDeferred(img, delay) {
     setTimeout(() => {
         // TODO transition the image src into image dataset src smoothly
         img.src = img.dataset.src;
-        console.log('Load at', delay);
     }, delay);
 }
 
@@ -95,14 +104,12 @@ function getElementDistanceFromViewport(element) {
 
 function loadAllImagesProgressively() {
     const imgs = document.querySelectorAll("img[data-src^='https://lh3.googleusercontent.com']");
-    console.log('LEN', imgs.length);
     // Sort imgs by distance from viewport
     const sortedImgs = Array.from(imgs).sort((a, b) => {
         return getElementDistanceFromViewport(a) - getElementDistanceFromViewport(b);
     });
     let delay = 0;
     sortedImgs.forEach((img) => {
-        console.log('Distance', getElementDistanceFromViewport(img));
         loadImageDeferred(img, delay);
         delay += rateLimitInterval;
     });
