@@ -7,7 +7,6 @@
   --space: 10px;
   --min-height: 240px;
   --last-row-background: transparent;
-  /*--last-row-background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);*/
 }
 /* Settings end */
 
@@ -52,42 +51,16 @@ a.photo {
   height: 100%;
 }
 
-a.photo>.overlay:not(.gallery>*>.overlay) {
-  background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
-  z-index: 99999;
+img.thumb {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+img.thumb.fade-in {
   opacity: 1;
-  transition: opacity 0.3 ease-in-out;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  margin: 45px 0 0 67px;
 }
 
-.gallery > * > .overlay {
-  background: repeating-linear-gradient(-45deg, #eee, #eee 10px, #ddd 10px, #ddd 20px);
-  z-index: 99999;
-  opacity: 1;
-  transition: opacity 0.3 ease-in-out;
-  position: absolute;
-  width: 100% !important;
-  height: 100% !important;
-  top: 0;
-  left: 0;
-  margin: 0;
+img.thumb.loaded {
+  transition: transform 0.5s ease;
 }
 
-.overlay.fade {
-  animation: fadeOut ease 2s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}

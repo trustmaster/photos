@@ -1,6 +1,17 @@
 // <SETTINGS>
 const rateLimitInterval = 200; // ms interval between image loading
+const resizeDebounceDelay = 2000; // ms debouncing for window resize
 // </SETTINGS>
+
+function setGalleryContainerSize() {
+        const imgs = document.querySelectorAll(".gallery a img");
+        imgs.forEach((img) => {
+            const width = img.getAttribute("width");
+            const height = img.getAttribute("height");
+            img.parentElement.style.setProperty("--width", width);
+            img.parentElement.style.setProperty("--height", height);
+        });
+    }
 
 function getViewportWidth() {
     return Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -33,7 +44,6 @@ function adjustImagesToViewport(className) {
 
 function adjustLinksToViewport(className) {
     let viewportWidth = getViewportWidth();
-    console.log('Viewport width', viewportWidth);
     const links = document.querySelectorAll(`a.${className}`);
     Array.from(links).forEach((link) => {
         const url = link.href;
@@ -44,30 +54,8 @@ function adjustLinksToViewport(className) {
                 viewportWidth = 2*viewportWidth;
             }
         }
-        console.log('Final VP width', viewportWidth);
         const newUrl = replaceDimensionsInUrl(url, viewportWidth);
-        console.log('New URL', newUrl);
         link.href = newUrl;
-    });
-}
-
-// For each image on the page if a 403 is returned, try to reload the image
-// once. If the image is still 403, replace it with a placeholder.
-const reloadedImages = [];
-var reloadBackoff = 0;
-function addImageErrorHandler(img) {
-    img.addEventListener("error", (e) => {
-        if (reloadedImages.includes(img.src)) {
-            img.innerHTML =
-                '<div class="img-error"><i class="fa-solid fa-circle-exclamation"></i> Could not load the image, please contact the administrator</div>';
-            return;
-        }
-        // Reload the image once after a delay
-        reloadedImages.push(img.src);
-        setTimeout(() => {
-            imh.src = img.src;
-        }, reloadBackoff);
-        reloadBackoff += rateLimitInterval;
     });
 }
 
@@ -76,30 +64,25 @@ function loadImageDeferred(img, delay) {
         return;
     }
     setTimeout(() => {
-        // TODO transition the image src into image dataset src smoothly
         img.src = img.dataset.src;
     }, delay);
 }
 
-function fadeOutOverlayOnImageLoad() {
+function fadeInOnImageLoad() {
     const imgs = document.querySelectorAll('img.thumb');
     Array.from(imgs).forEach((img) => {
         img.addEventListener('load', (e) => {
-            const overlay = img.parentElement.querySelector(".overlay");
-            if (overlay) {
-                overlay.classList.add('fade');
-                setTimeout(() => {
-                    overlay.remove();
-                }, 500);
-            }
+            img.classList.add('fade-in');
+            setTimeout(() => {
+                img.classList.add('loaded');
+            }, 2000);
         });
     });
 }
 
 function getElementDistanceFromViewport(element) {
     const rect = element.getBoundingClientRect();
-    return Math.abs(rect.bottom);
-
+    return Math.abs(rect.top);
 }
 
 function loadAllImagesProgressively() {
@@ -115,22 +98,23 @@ function loadAllImagesProgressively() {
     });
 }
 
-function addImageErrorHandlers() {
-    const imgs = document.querySelectorAll("img[src^='https://lh3.googleusercontent.com']");
-    Array.from(imgs).forEach((img) => {
-        addImageErrorHandler(img);
-    });
-}
-
 // Adjust linked image sizes to the viewport on window resize
+let resizeDebounceTimeout;
 window.addEventListener('resize', () => {
-    adjustLinksToViewport('photo');
+    clearTimeout(resizeDebounceTimeout);
+    resizeDebounceTimeout = setTimeout(() => {
+        adjustLinksToViewport('photo');
+    }, resizeDebounceDelay);
 });
 
 // Adjust right away
 (function() {
-    fadeOutOverlayOnImageLoad()
-    loadAllImagesProgressively();
-    //addImageErrorHandlers();
-    adjustLinksToViewport('photo');
+    setGalleryContainerSize();
+    // Wait for scroll to be over, then load images with throttling based on
+    // distance from current viewport
+    setTimeout(() => {
+        fadeInOnImageLoad();
+        loadAllImagesProgressively();
+        adjustLinksToViewport('photo');
+    }, 200);
 })();

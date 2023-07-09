@@ -36,20 +36,8 @@
     referrerpolicy="no-referrer"
 ></script>
 <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-<script type="text/javascript" src="/js/gphoto.js"></script>
+<script type="text/javascript" src="/js/gallery.js"></script>
 <script type="text/javascript">
-    function setGalleryContainerSize() {
-        const imgs = document.querySelectorAll(".gallery a img");
-        imgs.forEach((img) => {
-            const width = img.getAttribute("width");
-            const height = img.getAttribute("height");
-            img.parentElement.style.setProperty("--width", width);
-            img.parentElement.style.setProperty("--height", height);
-        });
-    }
-
-    setGalleryContainerSize();
-
     const lightbox = GLightbox({
         selector: ".photo",
         width: "100vw",

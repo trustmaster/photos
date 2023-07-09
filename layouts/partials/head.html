@@ -38,6 +38,7 @@
         media="all"
     />
     <style type="text/css">
+        /* Theme overwrite/fixes */
         .post_inner a.photo {
             color: var(--theme);
         }
@@ -47,15 +48,13 @@
             text-decoration: none;
         }
 
-        .post_inner a.photo > img.thumb {
-            transition: transform 0.5s ease;
-        }
-
         .post_inner > a.photo > img.thumb {
             max-width: 840px;
             display: block;
             margin: 2rem auto;
         }
+
+        /* Thumbnail zoom on hover */
 
         .post_inner a.photo:hover img.thumb {
             transform: scale(1.05);
@@ -63,6 +62,19 @@
 
         .post_inner > a.photo:hover > img.thumb {
             transform: scale(1.04);
+        }
+
+        /* Safari flickering fixes */
+        @supports (-webkit-hyphens: none) {
+            .post_inner a.photo:hover img.thumb {
+                transform: none;
+                -webkit-transform: none;
+            }
+
+            .post_inner > a.photo:hover > img.thumb {
+                transform: none;
+                -webkit-transform: none;
+            }
         }
 
         /* Icons */

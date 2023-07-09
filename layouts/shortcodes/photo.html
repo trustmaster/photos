@@ -18,7 +18,6 @@
 {{- $height_attr := "" -}}
 {{- $full_width_attr := "" -}}
 {{- $full_height_attr := "" -}}
-{{- $overlay_style := "" -}}
 
 
 <!-- Cast strings to int for type safety -->
@@ -65,7 +64,6 @@
     {{- if $height -}}
         {{- $height_attr = printf "height=\"%d\"" $height -}}
     {{- end -}}
-    {{- $overlay_style = printf "style=\"width:%dpx; height: %dpx;\"" $width $height -}}
 {{- else -}}
     <!-- Create thumbnail from remote or local source -->
     {{- $image := "" -}}
@@ -126,7 +124,6 @@
     {{- $thumb = $thumbnail.Permalink -}}
     {{- $width_attr = printf "width=\"%d\"" $thumbnail.Width -}}
     {{- $height_attr = printf "height=\"%d\"" $thumbnail.Height -}}
-    {{- $overlay_style = printf "style=\"width:%dpx; height: %dpx;\"" $thumbnail.Width $thumbnail.Height -}}
 {{- end -}}
 
 
@@ -140,12 +137,6 @@
     {{ safeHTMLAttr $full_width_attr }}
     {{ safeHTMLAttr $full_height_attr }}
 >
-    <!-- <div
-        class="thumb overlay"
-        {{ safeHTMLAttr $overlay_style }}
-    >
-        &nbsp;
-    </div> -->
     <img
         class="thumb"
         alt="{{ $caption }}"

@@ -5,7 +5,7 @@ draft: false
 image: "https://lh3.googleusercontent.com/pw/AJFCJaUljWeTAMUYef3Z4VqQg7FZcT8_yyisS6kUIEJmywHJiMC5wMskuy51MnHgcipnPSZ9r9ZmLpwFlPpS0QrJ0iPxZ349NXeAaw_lvlGgjLfaW6oPlE9PCkSZbhvb5kwKN8gT-3meUGXwC8WkkeVuu9Hb9Q=w2400-h1600-s"
 ---
 
-Welcome to (my humble album with random vivid memories from the beautiful island of) Madeira!
+Welcome to my humble album with random vivid memories from the beautiful island of Madeira!
 
 {{<photo caption="Welcome to the Paradise!" src="https://lh3.googleusercontent.com/pw/AJFCJaWoZevBV6oabKpOnYZPvJzBTgE048UAAqTqDQPPdKg2PPU_9DTmpKUoqeAa2vyj_-ocdH_amoU-o7N5ET3QuAOuJSR4OWtqJqH4nhD9sTfyEzWnWaS9cxJ0PM347iP8TR-YG92hx5LUjwruUpuevMuuUQ=w4032-h3024-no" thumb="https://lh3.googleusercontent.com/pw/AJFCJaWoZevBV6oabKpOnYZPvJzBTgE048UAAqTqDQPPdKg2PPU_9DTmpKUoqeAa2vyj_-ocdH_amoU-o7N5ET3QuAOuJSR4OWtqJqH4nhD9sTfyEzWnWaS9cxJ0PM347iP8TR-YG92hx5LUjwruUpuevMuuUQ=w1680-h1260-s" width="840" height="630" src-width="4032" src-height="3024" >}}
 
@@ -71,7 +71,7 @@ It is also interesting to know more about the places depicted on the photographs
 
 A huge gallery needs a longer break after it. I don't know if people are going to enjoy having to write so much text in order for their posts to look good. Maybe we should use generative AI to create these interludes by analyzing what's on the photos and using some content from the Internet.
 
-The downside is that it would not be personal anymore...
+The downside is that it would not be personal anymore, sorry. Here is [Funchal on Wikipedia](https://en.wikipedia.org/wiki/Funchal).
 
 {{<gallery>}}
 
@@ -97,6 +97,30 @@ The downside is that it would not be personal anymore...
 
 {{<photo caption="That is the road to the beach where diving classes take place. Good luck walking up this serpantine!" src="https://lh3.googleusercontent.com/pw/AJFCJaVYsovYu_VQFr1NwKJM4Dcy4i2gqLPQBBSo7CU76OZ0UBcZE5Rax3pMrJk4xTt3QoXxvGUq_8-UAQ8MFoz_6pKiJs-Z0Ef8Y1YAOW2iyZG6US4LQ6mtKse6YJWHOfEJdZSxcyGH0bwv1jdfBUjC08FNuA=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AJFCJaVYsovYu_VQFr1NwKJM4Dcy4i2gqLPQBBSo7CU76OZ0UBcZE5Rax3pMrJk4xTt3QoXxvGUq_8-UAQ8MFoz_6pKiJs-Z0Ef8Y1YAOW2iyZG6US4LQ6mtKse6YJWHOfEJdZSxcyGH0bwv1jdfBUjC08FNuA=w1080-h720-s" width="360" height="240" src-width="5472" src-height="3648" >}}
 
+{{<photo caption="View on the island from the sea, with a company" src="https://lh3.googleusercontent.com/pw/AIL4fc-0KThJyj2IWDNcJnY97dRwwWZWgGKadVnPsogGrxamlbwlHh8B4xew2LsqbB_4C-vMLcjDRbXRdl8YqU9TD246mOtpZCPNqKCfkarYbzPh0Eb1Yp3kzuBcdkzLK4jVzKN2CYAvD8tAiwWg4-l63iCpgA=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-0KThJyj2IWDNcJnY97dRwwWZWgGKadVnPsogGrxamlbwlHh8B4xew2LsqbB_4C-vMLcjDRbXRdl8YqU9TD246mOtpZCPNqKCfkarYbzPh0Eb1Yp3kzuBcdkzLK4jVzKN2CYAvD8tAiwWg4-l63iCpgA=w1080-h720-s" width="360" height="240" src-width="5472" src-height="3648" >}}
+
+{{<photo caption="Bye bye, dolphin 🐬" src="https://lh3.googleusercontent.com/pw/AIL4fc_7cIFzglMqJ1ybsANtPCuByfZg-tlacJvc8dURRF9k_NmsQ25AdVkXgdHV6ssnRCObP09xNCmtuy1xJrTrakZn3WiPlZYYsaxxjIrKz4eYuNGDatlMqgQzjVhm0JPIQ6sgNiKs3IFvfZQROqnqJ5xBZA=w5277-h3518-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc_7cIFzglMqJ1ybsANtPCuByfZg-tlacJvc8dURRF9k_NmsQ25AdVkXgdHV6ssnRCObP09xNCmtuy1xJrTrakZn3WiPlZYYsaxxjIrKz4eYuNGDatlMqgQzjVhm0JPIQ6sgNiKs3IFvfZQROqnqJ5xBZA=w1080-h720-s" width="360" height="240" src-width="5277" src-height="3518" >}}
+
 {{</gallery>}}
 
-To be continued...
+A few words about food on Madeira. Even Portuguese people say that Madeira has the best food. The food on Madeira is indeed very special. The secret behind to that is simple: most of the key ingredients of it grow on Madeira or swim around it. Given that all sorts of plants thrive in the unique climate of the island, the fruit and vegetables are always fresh and ripe.
+
+One of the most famous Madeiran specials is [scabbard fish with banana](https://en.wikipedia.org/wiki/Espada_com_banana) and passion fruit sauce. Another honorable mention is [bolo do caco](https://en.wikipedia.org/wiki/Bolo_do_caco), a unique flatbread made with addition of sweet potato.
+
+{{<gallery>}}
+
+{{<photo caption="Scabbard fish with banana" src="https://lh3.googleusercontent.com/pw/AIL4fc---BDa8qY3qErXT9ChLVyT2QH07RGvhJvBvCuVfzU3KuXk2De4H1z4mxKRAKWBNYyccd_m2dAa4S6sXD3-TSjZNi2HmLJ0_2BVkJ5jhgKtpVz848YwmwkmNt-n9SLp5NQBPBpxDvB97hNA4bUX-Ub7Ew=w4032-h3024-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc---BDa8qY3qErXT9ChLVyT2QH07RGvhJvBvCuVfzU3KuXk2De4H1z4mxKRAKWBNYyccd_m2dAa4S6sXD3-TSjZNi2HmLJ0_2BVkJ5jhgKtpVz848YwmwkmNt-n9SLp5NQBPBpxDvB97hNA4bUX-Ub7Ew=w960-h720-s" width="320" height="240" src-width="4032" src-height="3024" >}}
+
+{{<photo caption="Yellow dragonfruit, papaya, granadilla (sweet maracuja), and tangerine, locally grown" src="https://lh3.googleusercontent.com/pw/AIL4fc-_xS6WeiZ7-Ts9hbdOzju-Nyi0ciNcQqR1VAJZEecfKNVwtjsE6rZ9SbtfCKhydFFKeyDHMSo9Ldl-NotpXTnd4Bs6TUbk5KFG_naVryAfZ7ZLMB_wLWtPR55gZYUrtFWeB9u88ECZDwx07oK0uGii3g=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-_xS6WeiZ7-Ts9hbdOzju-Nyi0ciNcQqR1VAJZEecfKNVwtjsE6rZ9SbtfCKhydFFKeyDHMSo9Ldl-NotpXTnd4Bs6TUbk5KFG_naVryAfZ7ZLMB_wLWtPR55gZYUrtFWeB9u88ECZDwx07oK0uGii3g=w1080-h720-s" width="360" height="240" src-width="5472" src-height="3648" >}}
+
+{{<photo caption="A fish plate in Porto Moniz" src="https://lh3.googleusercontent.com/pw/AIL4fc-SvZdJ3qLx-Ey9xUTiGnFVu3BaUG-hDYiuuhPSQ84awz0_ACFjSbJxPHym9FHkmSWgJcFxVxyNtyB1-9YSyXrizXch9WQhi5hwIld3l_Mh5dwYqHV5YD9W3778wi2WI6JmnxZ3Xas8TZwuDlyUUA24Wg=w3024-h4032-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-SvZdJ3qLx-Ey9xUTiGnFVu3BaUG-hDYiuuhPSQ84awz0_ACFjSbJxPHym9FHkmSWgJcFxVxyNtyB1-9YSyXrizXch9WQhi5hwIld3l_Mh5dwYqHV5YD9W3778wi2WI6JmnxZ3Xas8TZwuDlyUUA24Wg=w540-h720-s" width="180" height="240" src-width="3024" src-height="4032" >}}
+
+{{</gallery>}}
+
+These were just a few random photos that didn't go under any specific theme. I will make at least 2 other posts that are specific to our trips to the West and North of the island.
+
+--
+
+P.S.: THIS:
+
+{{<photo caption="Madeira sunrise" src="https://lh3.googleusercontent.com/pw/AIL4fc-fqmZ6Ux1rupzMxirbSGew8XC_OwW5FtY9LfnQwTl1ddTwqgUCRNNWLtSF1RJpWG5hW96pIgHFe8dgUqiFPPPrDgS7ugb57hpd1maAjjNMWewj_x5xwcf15BrticCqnBURB9JxBi8YvEhD_3Pk5Vav9g=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-fqmZ6Ux1rupzMxirbSGew8XC_OwW5FtY9LfnQwTl1ddTwqgUCRNNWLtSF1RJpWG5hW96pIgHFe8dgUqiFPPPrDgS7ugb57hpd1maAjjNMWewj_x5xwcf15BrticCqnBURB9JxBi8YvEhD_3Pk5Vav9g=w1680-h1120-s" width="840" height="560" src-width="5472" src-height="3648" >}}
