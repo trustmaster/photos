@@ -1,4 +1,4 @@
-baseURL = 'https://photo-stories.pages.dev/'
+baseURL = 'https://photos.kodigy.com/'
 languageCode = 'en-us'
 title = 'Photo Stories by Vladimir Sibirov'
 theme = ["github.com/onweru/newsroom"]
