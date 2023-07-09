@@ -120,3 +120,5 @@ And the last glimpse of outstanding Korean cuisine before our 13 hour flight bac
 {{</gallery>}}
 
 We only stayed one night in Seoul on our way to Tokyo and one night back, hence this list of impressions is so short. We will definitely come again and dedicate more time to explore and taste South Korea! 🇰🇷🍜
+
+📷 _Shot mainly on Canon PowerShot G5 X Mark II_

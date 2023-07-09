@@ -1,7 +1,9 @@
 ---
-title: "Madeira"
+title: "Madeira - Random Memories"
 date: 2022-04-14T18:32:37+02:00
 draft: false
+categories: ["Travel"]
+tags: ["travel", "madeira"]
 image: "https://lh3.googleusercontent.com/pw/AJFCJaUljWeTAMUYef3Z4VqQg7FZcT8_yyisS6kUIEJmywHJiMC5wMskuy51MnHgcipnPSZ9r9ZmLpwFlPpS0QrJ0iPxZ349NXeAaw_lvlGgjLfaW6oPlE9PCkSZbhvb5kwKN8gT-3meUGXwC8WkkeVuu9Hb9Q=w2400-h1600-s"
 ---
 
@@ -97,6 +99,8 @@ The downside is that it would not be personal anymore, sorry. Here is [Funchal o
 
 {{<photo caption="That is the road to the beach where diving classes take place. Good luck walking up this serpantine!" src="https://lh3.googleusercontent.com/pw/AJFCJaVYsovYu_VQFr1NwKJM4Dcy4i2gqLPQBBSo7CU76OZ0UBcZE5Rax3pMrJk4xTt3QoXxvGUq_8-UAQ8MFoz_6pKiJs-Z0Ef8Y1YAOW2iyZG6US4LQ6mtKse6YJWHOfEJdZSxcyGH0bwv1jdfBUjC08FNuA=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AJFCJaVYsovYu_VQFr1NwKJM4Dcy4i2gqLPQBBSo7CU76OZ0UBcZE5Rax3pMrJk4xTt3QoXxvGUq_8-UAQ8MFoz_6pKiJs-Z0Ef8Y1YAOW2iyZG6US4LQ6mtKse6YJWHOfEJdZSxcyGH0bwv1jdfBUjC08FNuA=w1080-h720-s" width="360" height="240" src-width="5472" src-height="3648" >}}
 
+{{<photo caption="Eucalyptus and me (for scale)" src="https://lh3.googleusercontent.com/pw/AIL4fc-LSRtHi2ZRkQj2rRwAPPkt7PAjvHyOrjk03BdVBVKGOD4fhdfdXhuOfgVchCxP1-N8ssXuc3R6SJqk3D4-95BhmS6B_XTE-NLGed1LvszniQg0gPc41dash4EPx_nqyoXtlvve_JM_eBhuEP2MdxERXA=w3648-h5472-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-LSRtHi2ZRkQj2rRwAPPkt7PAjvHyOrjk03BdVBVKGOD4fhdfdXhuOfgVchCxP1-N8ssXuc3R6SJqk3D4-95BhmS6B_XTE-NLGed1LvszniQg0gPc41dash4EPx_nqyoXtlvve_JM_eBhuEP2MdxERXA=w480-h720-s" width="160" height="240" src-width="3648" src-height="5472" >}}
+
 {{<photo caption="View on the island from the sea, with a company" src="https://lh3.googleusercontent.com/pw/AIL4fc-0KThJyj2IWDNcJnY97dRwwWZWgGKadVnPsogGrxamlbwlHh8B4xew2LsqbB_4C-vMLcjDRbXRdl8YqU9TD246mOtpZCPNqKCfkarYbzPh0Eb1Yp3kzuBcdkzLK4jVzKN2CYAvD8tAiwWg4-l63iCpgA=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-0KThJyj2IWDNcJnY97dRwwWZWgGKadVnPsogGrxamlbwlHh8B4xew2LsqbB_4C-vMLcjDRbXRdl8YqU9TD246mOtpZCPNqKCfkarYbzPh0Eb1Yp3kzuBcdkzLK4jVzKN2CYAvD8tAiwWg4-l63iCpgA=w1080-h720-s" width="360" height="240" src-width="5472" src-height="3648" >}}
 
 {{<photo caption="Bye bye, dolphin 🐬" src="https://lh3.googleusercontent.com/pw/AIL4fc_7cIFzglMqJ1ybsANtPCuByfZg-tlacJvc8dURRF9k_NmsQ25AdVkXgdHV6ssnRCObP09xNCmtuy1xJrTrakZn3WiPlZYYsaxxjIrKz4eYuNGDatlMqgQzjVhm0JPIQ6sgNiKs3IFvfZQROqnqJ5xBZA=w5277-h3518-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc_7cIFzglMqJ1ybsANtPCuByfZg-tlacJvc8dURRF9k_NmsQ25AdVkXgdHV6ssnRCObP09xNCmtuy1xJrTrakZn3WiPlZYYsaxxjIrKz4eYuNGDatlMqgQzjVhm0JPIQ6sgNiKs3IFvfZQROqnqJ5xBZA=w1080-h720-s" width="360" height="240" src-width="5277" src-height="3518" >}}
@@ -124,3 +128,5 @@ These were just a few random photos that didn't go under any specific theme. I w
 P.S.: THIS:
 
 {{<photo caption="Madeira sunrise" src="https://lh3.googleusercontent.com/pw/AIL4fc-fqmZ6Ux1rupzMxirbSGew8XC_OwW5FtY9LfnQwTl1ddTwqgUCRNNWLtSF1RJpWG5hW96pIgHFe8dgUqiFPPPrDgS7ugb57hpd1maAjjNMWewj_x5xwcf15BrticCqnBURB9JxBi8YvEhD_3Pk5Vav9g=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-fqmZ6Ux1rupzMxirbSGew8XC_OwW5FtY9LfnQwTl1ddTwqgUCRNNWLtSF1RJpWG5hW96pIgHFe8dgUqiFPPPrDgS7ugb57hpd1maAjjNMWewj_x5xwcf15BrticCqnBURB9JxBi8YvEhD_3Pk5Vav9g=w1680-h1120-s" width="840" height="560" src-width="5472" src-height="3648" >}}
+
+📷 _Shot on Canon PowerShot G5 X Mark II_

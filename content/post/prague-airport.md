@@ -47,4 +47,4 @@ So, the extra 5 hours of travel were totally worth the wait, and we were ready f
 
 Stay tuned ✈️
 
-_Shot on Canon PowerShot G5 X Mark II_
+📷 _Shot mainly on Canon PowerShot G5 X Mark II_
