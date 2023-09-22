@@ -81,9 +81,9 @@ The Arakurayama Sengen Park is a park located in Fujiyoshida, Yamanashi Prefectu
 
 {{<photo caption="The view of Fuji from Arakurayama Sengen Park with sakura blossoms" src="https://lh3.googleusercontent.com/pw/AIL4fc-tl-IMCMpiiHRAajBqe9uSbSPZDZx2GKyP9qJkme4YO79rxc2s31HHqJIYxMJZ2JfZvu2zpYEzUDkFGf2mR4Ab2VMC4qYo86JOjGwU18o9kmCfPnGRBcn4nI7iYrMpuELVCwFsLW6WVXL6uJUExfMz3g=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-tl-IMCMpiiHRAajBqe9uSbSPZDZx2GKyP9qJkme4YO79rxc2s31HHqJIYxMJZ2JfZvu2zpYEzUDkFGf2mR4Ab2VMC4qYo86JOjGwU18o9kmCfPnGRBcn4nI7iYrMpuELVCwFsLW6WVXL6uJUExfMz3g=w1680-h1120-s" width="840" height="560" src-width="5472" src-height="3648" >}}
 
-We were visiting the park during the cherry blossom season. The park is very popular among the locals and tourists, so it was quite crowded. The park is located on a hill, so you have to climb a lot of stairs to get to the top. But the view is worth it.
+We were visiting this place during the cherry blossom season. The park is very popular among the locals and tourists, so it was quite crowded. You have to climb a lot of stairs to get to the top of the hill. But the view is worth it.
 
-Special highlight for us was the view of Mount Fuji with the sakura blossoms. It was a very special moment for us.
+Special highlight for us was the view of Mount Fuji with the sakura blossoms. Plus the old and elegant pagoda. It was a very special moment.
 
 {{<gallery>}}
 
@@ -103,7 +103,7 @@ Special highlight for us was the view of Mount Fuji with the sakura blossoms. It
 
 ## Shojiko
 
-Shojiko is around 30 minutes by bus from the Kawaguchiko station. There is only 1 hotel there, 1 restaurant, and 1 conbini which is 1 km away from the hotel. We were not quite sure if it was worth it, but the tourist forums promised us the best views on Fuji. Let's see.
+Shojiko is around 30 minutes by bus from the Kawaguchiko station. There was almost no trace of civilization around our hotel there, only 1 restaurant, and 1 conbini 1 km away from the hotel. We were not quite sure if it was worth it, but the tourist forums promised us the best views on Fuji. Let's see.
 
 {{<photo caption="If you go now, you can see Fuji-san upside down - said the old gentleman at the reception" src="https://lh3.googleusercontent.com/pw/AIL4fc-bYmYn9ekMPRX1iE40bi3_ebkr9zcsU9EgdleNY186cubPYv-iy1133FUC5ahUi-wgMssI89uCfckdZNCbx2j5qnRAHhr0A0GRGYk0aarvBp4xhUJ4ush_pTMmaJnAUTDxeJ1l4T7KqwhA7FpV-2-VFg=w4898-h3265-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-bYmYn9ekMPRX1iE40bi3_ebkr9zcsU9EgdleNY186cubPYv-iy1133FUC5ahUi-wgMssI89uCfckdZNCbx2j5qnRAHhr0A0GRGYk0aarvBp4xhUJ4ush_pTMmaJnAUTDxeJ1l4T7KqwhA7FpV-2-VFg=w1680-h1120-s" width="840" height="560" src-width="4898" src-height="3265" >}}
 
@@ -131,6 +131,7 @@ I didn't expect much from the Shojiko part to be honest, and it was one of the h
 
 {{<photo caption="Good morning Fuji-san" src="https://lh3.googleusercontent.com/pw/AIL4fc-UIGPUfPet3t9Zkis5ZP1HxjKE-ok92AVlOPRP173woscf7NgOSm5p3QPcoJfnW6R085lJ89lvLt8gAF9RmRDpkYO8oyxS0Uj1y_8BacjNuGU1KP7CgDCGTc_kZL1NHAYsFGmqRAAPGYNKE3bFGaQqLA=w5472-h3648-no" thumb="https://lh3.googleusercontent.com/pw/AIL4fc-UIGPUfPet3t9Zkis5ZP1HxjKE-ok92AVlOPRP173woscf7NgOSm5p3QPcoJfnW6R085lJ89lvLt8gAF9RmRDpkYO8oyxS0Uj1y_8BacjNuGU1KP7CgDCGTc_kZL1NHAYsFGmqRAAPGYNKE3bFGaQqLA=w1680-h1120-s" width="840" height="560" src-width="5472" src-height="3648" >}}
 
---
 
 3 days of Fuji viewing - is it too much or too little? It was enough for now. And definitely an invitation to come and do it again.
+
+📷 _Shot on Canon PowerShot G5 X Mark II_
