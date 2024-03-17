@@ -9,4 +9,6 @@ Hey there! This is me and my fam. On a holiday. Shot on a film. With Canon AE-1 
 
 Tired of scrolling through endless ads on Instagram? Want to see only what you really subscribed to? Looking for high quality photos rather than phone-screen-sized compressed pictures? And so am I.
 
-I made this blog with [Hugo](https://gohugo.com), [Photopasta](https://github.com/trustmaster/photopasta), and [Google Photos](https://photos.google.com). You can subscribe to updates via [RSS](https://en.wikipedia.org/wiki/RSS) with your favorite RSS reader app using a link in the footer.
+I made this blog with [Hugo](https://gohugo.com), [Photopasta](https://github.com/trustmaster/photopasta), and [Google Photos](https://photos.google.com).
+
+You can subscribe to updates via [RSS](https://en.wikipedia.org/wiki/RSS) with your favorite RSS reader app using a link in the footer. You can also follow the updates in Telegram via [Octomat.io Bot](https://octomat.io) using this [Follow in Telegram](https://t.me/OctomatioBot?start=cGhvdG9zLmtvZGlneS5jb20vaW5kZXgueG1s) link.
