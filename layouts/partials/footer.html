@@ -6,20 +6,19 @@
                 style="border-width:0"
                 src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
         /></a>
-        &copy;&nbsp;<span class="year"></span>&nbsp;{{ site.Title }} ||
+        &copy;<span class="year"></span>&nbsp;{{ site.Title }} || Subscribe:
         <a
             href="/index.xml"
             rel="alternate"
             type="application/rss+xml"
-            title="{{ .Site.Title | default "" }}"
+            title="RSS Feed"
+            target="_blank"
         >
-            Subscribe
             <span class="fa-stack fa-2x small">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
             </span>
         </a>
-        &nbsp;&nbsp;
         <a
             href="https://t.me/OctomatioBot?start=cGhvdG9zLmtvZGlneS5jb20vaW5kZXgueG1s"
             title="Follow this blog on Telegram"
@@ -29,7 +28,7 @@
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-telegram fa-stack-1x fa-inverse"></i>
             </span>
-        </a>"
+        </a>
     </p>
     <p class="attribution upcase">
         {{ safeHTML (T "designed_by" site.Data.designer) }}
