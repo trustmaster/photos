@@ -47,5 +47,4 @@ The foreground colour of Osaka is red though. Signs, lights, ads, they make such
 
 Will definitely come and visit Osaka again. And no worries if the weather is rainy - even better! ☔️
 
-{{<photo caption="Osaka shopping streets are inviting you to come in" src="https://lh3.googleusercontent.com/pw/AP1GczNMdY22Y1zJAxoBo4CU4xKYewq2l1TKsmJJF3KdELyRKYDEepVJwGNKMe9m_oTJPt3qeYd7rYDwwZcrrZdf9gz9lHHMWF1ci2E3K1ofKZTy1oxCO6UfAoAI7OE07eGOK4mlrUmgPKlyH11gtVROx9G86A=w4032-h3024-no" thumb="https://lh3.googleusercontent.com/pw/AP1GczNMdY22Y1zJAxoBo4CU4xKYewq2l1TKsmJJF3KdELyRKYDEepVJwGNKMe9m_oTJPt3qeYd7rYDwwZcrrZdf9gz9lHHMWF1ci2E3K1ofKZTy1oxCO6UfAoAI7OE07eGOK4mlrUmgPKlyH11gtVROx9G86A=w2400-h1800-s" width="1200" height="900" src-width="4032" src-height="3024" >}}
-
+{{<photo caption="Osaka shopping streets are inviting you to come in" src="https://lh3.googleusercontent.com/pw/AP1GczNMdY22Y1zJAxoBo4CU4xKYewq2l1TKsmJJF3KdELyRKYDEepVJwGNKMe9m_oTJPt3qeYd7rYDwwZcrrZdf9gz9lHHMWF1ci2E3K1ofKZTy1oxCO6UfAoAI7OE07eGOK4mlrUmgPKlyH11gtVROx9G86A=w4032-h3024-no" thumb="https://lh3.googleusercontent.com/pw/AP1GczNMdY22Y1zJAxoBo4CU4xKYewq2l1TKsmJJF3KdELyRKYDEepVJwGNKMe9m_oTJPt3qeYd7rYDwwZcrrZdf9gz9lHHMWF1ci2E3K1ofKZTy1oxCO6UfAoAI7OE07eGOK4mlrUmgPKlyH11gtVROx9G86A=w1680-h1260-s" width="840" height="630" src-width="4032" src-height="3024" >}}
